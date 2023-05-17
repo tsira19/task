@@ -1,0 +1,152 @@
+@font-face {
+    font-family: 'DM Sans';
+    src: url(/Fashion/fonts/DMSans-Italic.ttf);
+}
+@font-face {
+    font-family: 'Libre Baskerville';
+    src: url(/Fashion/fonts/LibreBaskerville-Italic.ttf);
+}
+body{
+    background-image: url(../photos/pexels-anastasiya-gepp-2036644.png);
+    background-repeat: no-repeat;
+    height:100vh;
+    background-size: cover;
+}
+@media screen and (max-width:500px) {
+    body{
+        background-image: url(../photos/background.png);
+    } 
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.one{
+    display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.img_1{
+    margin-left: 100px;
+    margin-top: 40px;
+}
+h3{
+    font-family: 'Libre Baskerville';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 32px;
+    color: #FFFFFF !important;
+    margin-left: 100px;
+}
+@media screen {
+    h3{
+        font-family: 'Libre Baskerville';
+        font-style: italic;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 32px;
+        color: #FFFFFF !important;
+        margin-left: 100px;
+
+
+    }
+}
+.two{
+    margin-right: 80px;
+    margin-top: 50px;
+}
+.container{
+    margin-top: 200px;
+}
+h1{
+    font-family: 'Libre Baskerville';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 87px;
+    /* identical to box height */
+    color: #FFFFFF !important;
+}
+h2{
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 37px;
+    color: #FFFFFF !important;
+}
+span{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    /* identical to box height */
+    color: #FFFFFF !important;
+}
+.container-2{
+    margin-top: 90px;
+    text-align: center;
+}
+p{
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    /* identical to box height */
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+}
+.three{
+    display: flex;
+}
+.input{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    /* identical to box height */
+    letter-spacing: -0.01em;
+    color:  #FFFFFF;
+    background:transparent;
+    border:1px solid #FFFFFF;
+    margin-right: 30px;
+    width: 278px;
+    height: 34px;
+}
+.input::placeholder{
+    color: rgba(255, 255, 255, 0.5);
+}
+button{
+    padding: 0px 48px ;
+    height: 34px;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    margin-left: 20px;
+    
+    font-family: 'DM Sans';  
+    font-weight: 700;
+    font-size: 16px;    /* identical to box height */
+    text-transform: uppercase;
+    color: #2C2C2C;
+}
+@media screen and (max-width:768px) {
+    button{
+        width:278px;
+        margin-top: 20px;
+    }
+    .three{
+        flex-direction: column !important; 
+        row-gap: 20px;
+        padding-left: 80px;
+    }
+}
+.footer{
+   display: flex;
+   align-items: center;
+   margin-top: 180px;
+   gap: 20px;
+}
